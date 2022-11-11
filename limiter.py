@@ -9,8 +9,8 @@ import schedule;
 _db_address = '/etc/x-ui/x-ui.db'
 _max_allowed_connections = 500
 _checkCycle = 5 #seconds
-_telegrambot_token = '5620442372:AAFi20_uW36xaAcJDuzUQBkPp034LEAy2XA'
-_telegram_chat_id = '1057951005' # you can get this in @cid_bot bot.
+_telegrambot_token = 'BOT TOKEN'
+_telegram_chat_id = 'CHAT ID' # you can get this in @cid_bot bot.
 _sv_addr = 'xtron run'
 def getUsers():
     conn = sqlite3.connect(_db_address)
